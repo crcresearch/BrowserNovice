@@ -29,8 +29,6 @@ Cyber novices often enter sensitive data into web browsers for routine activitie
 user data for marketing or surveillance, frequently without explicit consent. It is crucial to regularly ensure the latest features of default configurations, which are most relevant for novice users, adequately address growing privacy demands given the centrality of web browsers to internet usage. Our work
 scrutinizes the privacy claims of desktop browsers and their default configurations.
 
-To ensure adequate experiment coverage, we used in-browser testing from three different toolkits on two operating systems, since browsers use local storage differently based on their platform.
-
 Due to the frequent updates of browsers and operating systems, we provide this repository for future researchers to utilize our analysis script and evaluate and report discrepancies in future versions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -42,7 +40,8 @@ To evaluate the privacy of each browser, we leveraged in-browser tests from thre
 
 ### Prerequisites
 
-To conduct the experiment, we recommend using different operating systems (we used an x86 CPU running Windows, version 11, and an Apple silicon M2 chip running MacOS, version Sonoma 14.1).
+To conduct the experiment and ensure adequate experiment coverage, we recommend using different operating systems (we used an x86 CPU running Windows, version 11, and an Apple silicon M2 chip running MacOS, version Sonoma 14.1), since browsers use local storage differently based on their platform.
+
 
 ### PrivacyTests.org
 
