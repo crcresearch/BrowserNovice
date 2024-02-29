@@ -9,7 +9,7 @@
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#experiment">Experiment Design</a>
         <ul>
-          <li></li><a href="#prerequisites">Prerequisites</a></li>
+          <li><a href="#prerequisites">Prerequisites</a></li>
           <li><a href="#privacytests">PrivacyTests.org</a></li>
           <li><a href="#browserleaks">Browser Leaks</a></li>
           <li><a href="#ptp">Privacy Test Pages</a></li>
@@ -21,11 +21,9 @@
 </details>
 
 
-
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project is a part of the paper "Defending Novice User Privacy: An Evaluation of Default Web Browser Configurations" published in <i>Computers & Security</i> Journal. The paper can be found <a href="link">here</a>.
+This project is a part of the paper "Defending Novice User Privacy: An Evaluation of Default Web Browser Configurations" published in <i>Computers & Security</i> journal. The paper can be found <a href="link">here</a>.
 
 Cyber novices often enter sensitive data into web browsers for routine activities such as online shopping and bill payments, making them targets for malicious entities, including cybercriminals and oppressive governments. The proliferation of online advertising technologies further exacerbates privacy concerns by exploiting
 user data for marketing or surveillance, frequently without explicit consent. It is crucial to regularly ensure the latest features of default configurations, which are most relevant for novice users, adequately address growing privacy demands given the centrality of web browsers to internet usage. Our work
@@ -33,16 +31,14 @@ scrutinizes the privacy claims of desktop browsers and their default configurati
 
 To ensure adequate experiment coverage, we used in-browser testing from three different toolkits on two operating systems, since browsers use local storage differently based on their platform.
 
-Due to the frequent updates of browsers and operating systems, we will provide this repository for future researchers to utilize our analysis script and evaluate and report discrepancies in future versions.
+Due to the frequent updates of browsers and operating systems, we provide this repository for future researchers to utilize our analysis script and evaluate and report discrepancies in future versions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- GETTING STARTED -->
-
 ## Experiment Design
 
-Below are the details needed to replicate our experiment. To evaluate the privacy of each browser, we leveraged in-browser tests from three different toolsets: PrivacyTests.org, BrowserLeaks, and Privacy Test Pages
+To evaluate the privacy of each browser, we leveraged in-browser tests from three different toolsets: PrivacyTests.org, BrowserLeaks, and Privacy Test Pages. 
 
 ### Prerequisites
 
@@ -50,43 +46,29 @@ To conduct the experiment, we recommend using different operating systems (we us
 
 ### PrivacyTests.org
 
-PrivacyTests.org, available on GitHub or static results visible on their site was created and open-sourced by Dr. Arthur Edelstein (Usenix, 2023). 
+Download the repository from [https://github.com/privacytests/privacytests.org](https://github.com/privacytests/privacytests.org). PrivacyTests.org, available on GitHub or static results visible on their site was created and open-sourced by Dr. Arthur Edelstein. Run the program as explained on the README page in the repo. Consider the tests provided in the <i><b>Browser Metrics</i></b> file. 
 
 ### Browser Leaks
 
-The BrowserLeaks (BrowserLeaks.com, 2011) toolkit offers a wide range of privacy and privacy tests designed to determine if websites engage in one of a variety of problematic practices, such as storing information about user devices, leaking real IP addresses, or performing browser fingerprinting on users.
+The BrowserLeaks toolkit can be found at [https://browserleaks.com/](https://browserleaks.com/). It offers a wide range of privacy and privacy tests designed to determine if websites engage in one of a variety of problematic practices, such as storing information about user devices, leaking real IP addresses, or performing browser fingerprinting on users. Run the tests provided in the <i><b>Browser Metrics</i></b> file. 
 
 ### Privacy Test Pages
 
-Privacy Test Pages, created by DuckDuckGo (Slayter), is an open-source toolkit available on GitHub for testing privacy and privacy features of browsers and browser extensions.
+Privacy Test Pages can be found at [https://github.com/duckduckgo/privacy-test-pages](https://github.com/duckduckgo/privacy-test-pages). The tests can also be found live at [https://privacy-test-pages.site/](https://privacy-test-pages.site/). This repository created by DuckDuckGo (Slayter), is an open-source toolkit available on GitHub for testing privacy and privacy features of browsers and browser extensions. Consider the tests provided in the <i><b>Browser Metrics</i></b> file. 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
+## Evaluation
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+We analyzed four Potentially Intrusive Practices (Behavioral Profiling, Fingerprinting, Targeted Advertising, and Reporting and Analytics) previously suggested in the work of <a href="https://petsymposium.org/popets/2021/popets-2021-0082.php>Smullen et al. (2021)</a>.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+Script details
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 <!-- LICENSE -->
