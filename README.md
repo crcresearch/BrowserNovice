@@ -9,7 +9,7 @@
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#experiment">Experiment Design</a>
         <ul>
-          <li></li>  <a href="#prerequisites">Prerequisites</a></li>
+          <li></li><a href="#prerequisites">Prerequisites</a></li>
           <li><a href="#privacytests">PrivacyTests.org</a></li>
           <li><a href="#browserleaks">Browser Leaks</a></li>
           <li><a href="#ptp">Privacy Test Pages</a></li>
