@@ -53,7 +53,7 @@ The BrowserLeaks toolkit can be found at [https://browserleaks.com/](https://bro
 
 ### Privacy Test Pages
 
-Privacy Test Pages can be found at [https://github.com/duckduckgo/privacy-test-pages](https://github.com/duckduckgo/privacy-test-pages). The tests can also be found live at [https://privacy-test-pages.site/](https://privacy-test-pages.site/). This repository created by DuckDuckGo (Slayter), is an open-source toolkit available on GitHub for testing privacy and privacy features of browsers and browser extensions. Consider the tests provided in the <i><b>Browser Metrics</i></b> file. 
+Privacy Test Pages can be found at [https://github.com/duckduckgo/privacy-test-pages](https://github.com/duckduckgo/privacy-test-pages). Tests can also be found live at [https://privacy-test-pages.site/](https://privacy-test-pages.site/). This repository created by DuckDuckGo (Slayter), is an open-source toolkit available on GitHub for testing privacy and privacy features of browsers and browser extensions. Consider the tests provided in the <i><b>Browser Metrics</i></b> file. 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
