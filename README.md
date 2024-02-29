@@ -63,7 +63,7 @@ Privacy Test Pages can be found at [https://github.com/duckduckgo/privacy-test-p
 
 ## Evaluation
 
-We analyzed four Potentially Intrusive Practices (Behavioral Profiling, Fingerprinting, Targeted Advertising, and Reporting and Analytics) previously suggested in the work of [https://petsymposium.org/popets/2021/popets-2021-0082.php](Smullen et al. (2021)).
+We analyzed four Potentially Intrusive Practices (Behavioral Profiling, Fingerprinting, Targeted Advertising, and Reporting and Analytics) previously suggested in the work of [Smullen et al. (2021)](https://petsymposium.org/popets/2021/popets-2021-0082.php).
 
 Script details
 
