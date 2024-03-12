@@ -23,7 +23,7 @@
 
 ## About The Project
 
-This project is a part of the paper <b>"Defending Novice User Privacy: An Evaluation of Default Web Browser Configurations"</b> published in <i>Computers & Security</i> journal. The paper can be found [here](https://www.sciencedirect.com/user/error/ILP-VERIFY-1?errorContext=arp-c64daf34-3619-4cdb-9e30-9a22e93f42df#.).
+This project is a part of the paper <b>"Defending Novice User Privacy: An Evaluation of Default Web Browser Configurations"</b> published in <i>Computers & Security</i> journal. The paper can be found [here](https://www.sciencedirect.com/science/article/pii/S0167404824000853).
 
 Cyber novices often enter sensitive data into web browsers for routine activities such as online shopping and bill payments, making them targets for malicious entities, including cybercriminals and oppressive governments. The proliferation of online advertising technologies further exacerbates privacy concerns by exploiting
 user data for marketing or surveillance, frequently without explicit consent. It is crucial to regularly ensure the latest features of default configurations, which are most relevant for novice users, adequately address growing privacy demands given the centrality of web browsers to internet usage. Our work
