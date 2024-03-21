@@ -73,7 +73,7 @@ The script evaluates 14 browsers, it calculates metric scores of potentially int
 <!-- LICENSE -->
 ## License
 
-Distributed under the X License. See `LICENSE.txt` for more information.
+Distributed under the Apache License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
